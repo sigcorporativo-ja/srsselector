@@ -1,0 +1,39 @@
+{
+  "url": {
+    "name": "srsselector",
+    "separator": "*"
+  },
+  "constructor": "M.plugin.SRSselector",
+  "parameters": [{
+    "type": "object",
+    "properties": [{
+      "type": "enum",
+      "name": "position",
+      "possibleValues": [
+        "TR",
+        "TL",
+        "BL",
+        "BR"
+      ],
+      "position": 0
+    }]
+  }],
+  "files": {
+    "ol": {
+      "scripts": ["srsselector.ol.min.js"],
+      "styles": ["srsselector.ol.min.css"]
+    }
+  },
+  "metadata": {
+    "name": "SRSselector",
+    "description": "Cambio de proyección",
+    "text": "Te permite cambiar la proyección del mapa.",
+    "version": "1.0.0",
+    "date": "Diciembre, 2019",
+    "author": "",
+    "org": "Instituto de Estadística y Cartografía",
+    "tags": "mapea,plugin",
+    "icon": "./facade/assets/icons/icons.svg",
+    "centralized": true
+  }
+}
