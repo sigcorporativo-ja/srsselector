@@ -1,0 +1,5 @@
+<select name="srs" id="m-srsselector-srs" class="dropdown">
+    {{#each projections}}
+        <option class="m-xylocator-srs-option" data-units="{{this.units}}" value="{{this.code}}">{{this.title}}</option>
+    {{/each}}
+</select>
