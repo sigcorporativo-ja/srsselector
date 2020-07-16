@@ -25,10 +25,6 @@ Plugin que permite establecer el sistema de referencias en el mapa.
   - 'BL':bottom left
   - 'BR':bottom right
 
-## Eventos
-
-## Otros métodos
-
 ## Ejemplos de uso
 
 ### Ejemplo 1
